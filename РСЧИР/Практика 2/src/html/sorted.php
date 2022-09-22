@@ -1,6 +1,6 @@
 <?php
 
-$ar = htmlspecialchars($_GET["code"]);
+$ar = htmlspecialchars($_GET["arr"]);
 $a = explode(',', $ar);
 
 //Сортировка слиянием
